@@ -300,30 +300,6 @@ public class Main {
 	public static void runPart2Fast(String text) {
 		System.out.println("INPUT: " + text);
 		
-		//test:
-		/*
-		if (false) {
-			System.out.println(ExtEuclideanResult.calculate(240,46));
-			System.out.println(ExtEuclideanResult.calculate(46,240));
-
-			Congruence [] congruences = new Congruence [] {
-				new Congruence(3, 0),
-				new Congruence(4, 3),
-				new Congruence(5, 4)
-			};
-			for (Congruence c : congruences)
-				System.out.println(c.toString());
-			
-			Congruence combined = congruences[0].combineWith(congruences[1]);
-			System.out.println(combined);
-			
-			combined = combined.combineWith(congruences[2]);
-			System.out.println(combined);
-		
-			System.exit(0);
-		}
-		*/
-		
 		//parse input:
 		List<Congruence> equations = new ArrayList<>();
 		
